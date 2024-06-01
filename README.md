@@ -5,7 +5,7 @@
 In this challenge, the goal is to use machine learning and neural networks to help the a foundation with a tool to select applicants for funding with the best chance of success in their ventures.
 
 The steps used to complete this challenge are as follows: 
-1. Preprocessing the Data:
+<b>1. Preprocessing the Data:</b>
 *  Read in the dataset
 *  Drop the EIN and NAME columns
 *  Determine unique values for each column
@@ -15,7 +15,7 @@ The steps used to complete this challenge are as follows:
 *  Scale the data
 
 
-2. Compile, train, and evaluate the model
+<b>2. Compile, train, and evaluate the model</b>
 *  Create a neural network with at least 1 hidden layer
 *  Create an output later with the appropriate activation function
 *  Check the structure of the model
@@ -25,7 +25,7 @@ The steps used to complete this challenge are as follows:
 *  Save and export results (this is the AlphabetSoupCharity.h5 file)
 
 
-3. Optimize the model to achieve a target predictive accurary higher than 75%
+<b>3. Optimize the model to achieve a target predictive accurary higher than 75%</b>
 *  Adjust the input data to ensure no variables or outliers are causing confusion in the model
 *  Bring back the 'NAME' column and replace values with less than 150 occurences into the 'Other' category
 *  Adding an additional hidden layer
