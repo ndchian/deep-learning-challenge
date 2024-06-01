@@ -14,6 +14,7 @@ The steps used to complete this challenge are as follows:
 *  Split the data into test and training datasets using the train_test_split module from sklearn
 *  Scale the data
 
+
 2. Compile, train, and evaluate the model
 *  Create a neural network with at least 1 hidden layer
 *  Create an output later with the appropriate activation function
@@ -22,6 +23,7 @@ The steps used to complete this challenge are as follows:
 *  Create a callback that saves the model's weights every five epochs (this is the model_weights.h5 document)
 *  Evaluate the model using the test data to determine the loss and accuracy
 *  Save and export results (this is the AlphabetSoupCharity.h5 file)
+
 
 3. Optimize the model to achieve a target predictive accurary higher than 75%
 *  Adjust the input data to ensure no variables or outliers are causing confusion in the model
