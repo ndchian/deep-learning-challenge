@@ -36,8 +36,19 @@ The steps used to complete this challenge are as follows:
 
 ## Results
 
-The target variable in this model was the 'IS_SUCCESSFUL' variable.
+<b>Data Preprocessing</b>
+The target variable in this model was the 'IS_SUCCESSFUL' variable. All other columns are the feature variables with the exception of the 'EIN' and 'NAME' variables in the original model, and just the 'EIN' variable in the optimized version.
+
+<b>Compiling, Training, and Evaluating the model</b>
+The final optimized moel consists of 5 layers, as such: 
+* First layer has 10 neurons with the relu activation function
+* The second layer has 15 neurons with a sigmoid activation function
+* The third layer has 10 neurons with a sigmoid activation function
+* The fourth layer has 10 neurons with a relu activation function
+* The output layer has 1 neuron with a sigmoid activation function
+
+With the layers described above, I was able to achieve the target model performance. For full transperency, I did make approximately 10 changes and alterations before deciding on this final combination of layers and binning of the 'NAME' column. Most of my earlier optimization models were coming in around 73-74% and I was determined to reach the target performance. I unfortunately did not save these other models but I had tried combinations of adding a fourth and then fifth hidden layer, changing the amount of neurons per each layer, changing the activation functions, adding the 'NAME' column back and binning it, and reducing epochs before I achieved my desired result. 
 
 ## Summary
 
-Given the 99% accuracy rate, I would recommend that the logistic regression model is used. When reviewing the healthy loan label predictors, both precision and recall are extremely high at 100% and 99% respectively. It would not be a fair recommendation without calling attention to the slight decrease in accuracy when it comes to the high-risk loan labels. The accuracy is slightly lower, coming in at 85% and 91%. In business, being able to correctly predict the high-risk loans is paramount. However, even though these are less accurate than the healthy loan label predictors, I find that these numbers are still acceptable and would move forward with recommending the model. 
+I did reach the target model performance but I would also recommend exploring other options such as a random forest model. Further tweaking could also be done to this current model to achieve better performance as well.
