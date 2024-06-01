@@ -5,6 +5,7 @@
 In this challenge, the goal is to use machine learning and neural networks to help the a foundation with a tool to select applicants for funding with the best chance of success in their ventures.
 
 The steps used to complete this challenge are as follows: 
+
 <b>1. Preprocessing the Data:</b>
 *  Read in the dataset
 *  Drop the EIN and NAME columns
